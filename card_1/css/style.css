@@ -1,0 +1,84 @@
+@charset "UTF-8";
+* {
+  position: relative;
+  font-family: 微軟正黑體; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #d1d1d1;
+  box-sizing: border-box;
+  border-top: solid 20px #cf4646;
+  border-bottom: solid 20px #cf4646;
+  overflow: hidden; }
+
+.mark {
+  position: absolute;
+  font-size: 400px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.055);
+  white-space: nowrap; }
+
+.business_card {
+  background-color: #fff;
+  height: 350px;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  top: calc(50% - 175px);
+  left: calc(50% - 100px);
+  box-shadow: 0px 25px 15px -20px rgba(0, 0, 0, 0.2); }
+  .business_card .pic {
+    margin-top: 20px; }
+    .business_card .pic .head_pic {
+      overflow: hidden;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: auto; }
+      .business_card .pic .head_pic img {
+        max-width: 100px; }
+    .business_card .pic .nation {
+      background-color: #cf4646;
+      width: 30px;
+      height: 30px;
+      border-radius: 100%;
+      position: absolute;
+      right: 43px;
+      bottom: 1px;
+      line-height: 30px;
+      text-align: center;
+      color: #fff;
+      font-size: 10px; }
+  .business_card .name_area {
+    text-align: right;
+    padding: 13px 20px 5px 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    margin: auto; }
+    .business_card .name_area .name {
+      color: #cf4646;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: -1px;
+      line-height: 24px; }
+      .business_card .name_area .name b {
+        font-size: 35px;
+        line-height: 27px;
+        vertical-align: top; }
+  .business_card .contact_info {
+    padding: 20px;
+    font-size: 12px; }
+    .business_card .contact_info .detail div {
+      margin: auto; }
+    .business_card .contact_info .detail b {
+      font-size: 14px;
+      color: #cf4646; }
+  .business_card .wave {
+    background-color: #cf4646;
+    height: 53px; }
